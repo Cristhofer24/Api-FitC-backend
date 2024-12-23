@@ -1,6 +1,6 @@
 package com.interfaz.Dashboard.controller;
 
-import com.interfaz.Dashboard.model.AuthDTO;
+import com.interfaz.Dashboard.model.*;
 import com.interfaz.Dashboard.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9513f95c-278e-4146-bfbe-64b87730abf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/SecurityWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/components/components.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/springWebcorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/webConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/ConsultaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/PasswordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/RolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/AuthDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/CompaniaROL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/CompanyPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/ConsultaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/UsuarioRolPasswordDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/repository/AuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/repository/CompanyPaswoordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/repository/CompanyRolRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/service/ConsultaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/encryptor/Encriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/encryptor/controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/DashboardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/DashboardApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/FitSwitchConfigDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/FitSwitchConfigDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/ISO8583Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/CompaniaUsuarioRol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/CompaniaUsuarioRol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/model/ISO8583.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/repository/CompaniaUsuarioRolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/repository/CompaniaUsuarioRolRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/repository/ISO8583Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/SecurityWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/components/components.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/webConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/service/AuthService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +42,18 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/karolinagit3007/Back-end-fit-switch.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Cristhofer24/Api-FitC-backend.git&quot;,
     &quot;accountId&quot;: &quot;f03232b8-96f8-4247-8efb-cb07406b8c58&quot;
   }
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Maven 3.6.3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -77,10 +70,10 @@
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Documents/SoftWareHouse/FIT-SWITCH/Back-end/Back-end-FITC",
+    "last_opened_file_path": "C:/Users/USER/Documents/SoftWareHouse/FIT-SWITCH/Encryptador/security-utils-2.4-SNAPSHOT.jar.src",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
