@@ -57,7 +57,7 @@ public class Encriptor implements Serializable {
         }
 
         try {
-            initCipher(Cipher.DECRYPT_MODE);
+            initCipher(2);
             ByteArrayOutputStream bout = new ByteArrayOutputStream();
             OutputStream out = new CipherOutputStream(bout, cipher);
             out.write(hexStringToByteArray(pText));

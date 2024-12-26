@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9513f95c-278e-4146-bfbe-64b87730abf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/encryptor/Encriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/encryptor/controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/SecurityWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/components/components.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/config/webConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/encryptor/Encriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaz/Dashboard/encryptor/Encriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/encryptor/Encriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/interfaz/Dashboard/encryptor/Encriptor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,7 @@
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Documents/SoftWareHouse/FIT-SWITCH/Encryptador/security-utils-2.4-SNAPSHOT.jar.src",
+    "last_opened_file_path": "C:/Users/USER/Documents/SoftWareHouse/FIT-SWITCH/Back-end/Back-end-FITC",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",

@@ -36,7 +36,7 @@ public class Encriptor implements Serializable {
 
     @Value("${security.algorithm:DES}")
     private String algorithm;
-    
+
     @PostConstruct
     public void init() {
         try {
