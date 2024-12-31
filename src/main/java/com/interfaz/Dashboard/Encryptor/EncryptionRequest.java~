@@ -1,0 +1,5 @@
+package com.interfaz.Dashboard.Encryptor;
+
+public class EncryptionRequest {
+    
+}

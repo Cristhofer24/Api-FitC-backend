@@ -1,4 +1,5 @@
 package com.interfaz.Dashboard.service;
+import com.interfaz.Dashboard.Encryptor.ServiceDescrypt;
 import com.interfaz.Dashboard.model.AuthDTO;
 import com.interfaz.Dashboard.model.CompaniaUsuarioRol;
 import com.interfaz.Dashboard.repository.AuthRepository;
@@ -12,7 +13,9 @@ import java.util.List;
 @Service
 public class AuthService {
     @Autowired
-    private AuthRepository authRepository;  // Acceso al repositorio donde se guarda la información del usuario y contraseña
+    private AuthRepository authRepository;
+
+    private final ServiceDescrypt decrypt = new ServiceDescrypt("FIT-2008", "DES");
 
     // Método para autenticar al usuario
     public boolean authenticateUser(AuthDTO authDTO) {
@@ -33,8 +36,22 @@ public class AuthService {
             return false;  // El nombre de usuario no coincide
         }
 
+        String encryptedPassword = decrypt.encrypt(authDTO.getPassword());
         // Comparar las contraseñas en texto claro
-        return authDTO.getPassword().trim().equals(storedPassword.trim());
+        return encryptedPassword.trim().equals(storedPassword.trim());
+    }
+
+    public String getUserRole(String cUsuario) {
+        // Consultar la base de datos para obtener el rol basado en el nombre de usuario
+        List<Object[]> result = authRepository.findUsuarioRolPassword(cUsuario);
+
+        if (result.isEmpty()) {
+            return null; // No se encontró el usuario
+        }
+
+        // Extraer el rol del resultado de la consulta
+        String role = (String) result.get(0)[1]; // Suponiendo que el índice 1 es el rol
+        return role;
     }
 
 

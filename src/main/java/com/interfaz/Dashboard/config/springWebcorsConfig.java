@@ -45,7 +45,8 @@ public class springWebcorsConfig {
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))  // Configura CORS usando el bean corsConfigurationSource
                 .csrf(csrf -> csrf.disable())  // Deshabilita CSRF si no lo necesitas
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/**").permitAll()  // Permite acceso a las rutas de la API sin autenticación
+                        .requestMatchers("/api/**").permitAll()
+                        .requestMatchers("/crypto/**").permitAll()  // Permite acceso a las rutas de la API sin autenticación
                         .anyRequest().authenticated()  // Requiere autenticación para otras rutas
                 );
         return http.build();

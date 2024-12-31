@@ -21,6 +21,6 @@ public interface AuthRepository extends JpaRepository<CompaniaUsuarioRol, String
             "AND tup0.CUSUARIO = tcur0.CUSUARIO " +
             "WHERE tr0.CROL IN (35, 36) " +
             "AND tcur0.CUSUARIO = :cUsuario", nativeQuery = true)
-    List<Object[]> findUsuarioRolPassword(@Param("cUsuario") String cUsuario);
+    List<Object[]> findUsuarioRolPassword(@Param("cUsuario") String cUsuario)
 
 }
